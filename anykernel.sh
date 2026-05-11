@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Wild Kernels by TheWildJames aka Morgan Weedman
+kernel.string=AnyKernel3-Luminaire modded by @chainonyourdoor
 do.devicecheck=0
 do.modules=0
 do.systemless=0
@@ -42,7 +42,7 @@ case $kernel_version in
     *) ksu_supported=false ;;
 esac
 
-ui_print " " "  -> Wild Kernels Supported: $ksu_supported"
+ui_print " " "  -> Luminaire Kernels Supported: $ksu_supported"
 $ksu_supported || abort "  -> Non-GKI device, abort."
 
 # boot install
@@ -56,25 +56,6 @@ else
 fi
 
 ui_print " "
-ui_print "WildKernels Telegram Channel:"
-ui_print "https://t.me/WildKernels"
-ui_print " "
-ui_print "WildKernels Website:"
-ui_print "https://wildkernels.dev"
-ui_print " "
-ui_print "Wild_KSU GitHub Repository:"
-ui_print "https://github.com/WildKernels/Wild_KSU"
-ui_print "KernelSU-Next fork focused on customization and root-hiding features!"
-ui_print " "
-ui_print "GKI_KernelSU_SUSFS GitHub Repository:"
-ui_print "https://github.com/WildKernels/GKI_KernelSU_SUSFS"
-ui_print "GKI kernels with KernelSU and SUSFS."
-ui_print " "
-ui_print "OnePlus_KernelSU_SUSFS GitHub Repository:"
-ui_print "https://github.com/WildKernels/OnePlus_KernelSU_SUSFS"
-ui_print "OnePlus kernels with KernelSU and SUSFS."
-ui_print " "
-ui_print "Samsung_KernelSU_SUSFS GitHub Repository:"
-ui_print "https://github.com/WildKernels/Samsung_KernelSU_SUSFS"
-ui_print "Samsung kernels with KernelSU and SUSFS."
+ui_print "booooom"
+ui_print "congrats mate, your device will explode, mwehehehe"
 ui_print " "
